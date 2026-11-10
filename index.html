@@ -96,7 +96,7 @@ h1,h2,h3,h4{font-family:var(--hd);line-height:1.08;color:var(--navy);font-weight
 .qgrid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
 .qgrid .full{grid-column:1/-1}
 .quote label{display:block;font-size:.76rem;font-weight:700;color:var(--navy);margin-bottom:.3rem}
-.quote input,.quote select{width:100%;padding:.78rem .95rem;border-radius:12px;border:1.5px solid var(--line);background:var(--mist);font:inherit;font-size:.93rem;color:var(--ink);transition:.2s}
+.quote input,.quote select{width:100%;padding:.78rem .8rem;border-radius:12px;border:1.5px solid var(--line);background:var(--mist);font:inherit;font-size:.93rem;color:var(--ink);transition:.2s}
 .quote input:focus,.quote select:focus{outline:0;border-color:var(--blue);background:#fff}
 .seg{display:flex;gap:.4rem}
 .seg label{flex:1;margin:0;cursor:pointer}
@@ -104,7 +104,7 @@ h1,h2,h3,h4{font-family:var(--hd);line-height:1.08;color:var(--navy);font-weight
 .seg span{display:block;text-align:center;padding:.7rem .3rem;border-radius:12px;border:1.5px solid var(--line);background:var(--mist);font-weight:600;font-size:.88rem;transition:.2s}
 .seg input:checked+span{background:var(--navy);border-color:var(--navy);color:#fff}
 .quote .btn{width:100%;justify-content:center;margin-top:1.1rem}
-.quote .float{position:absolute;left:-34px;bottom:46px;background:#fff;border-radius:18px;padding:.8rem 1rem;display:flex;align-items:center;gap:.7rem;box-shadow:var(--sh);line-height:1.2}
+.quote .float{position:absolute;left:-34px;top:-26px;background:#fff;border-radius:18px;padding:.8rem 1rem;display:flex;align-items:center;gap:.7rem;box-shadow:var(--sh);line-height:1.2}
 .quote .float .ic{width:40px;height:40px;border-radius:50%;background:var(--navy);color:#fff}
 .quote .float .ic svg{width:18px;height:18px}
 .quote .float b{font-family:var(--hd);color:var(--navy);display:block}
@@ -176,12 +176,12 @@ h1,h2,h3,h4{font-family:var(--hd);line-height:1.08;color:var(--navy);font-weight
 .card p{color:#DCE5F2;font-size:.95rem;margin-bottom:1.1rem}
 .card .acts{display:flex;gap:.6rem;flex-wrap:wrap}
 .card .btn{padding:.7rem 1.2rem;font-size:.88rem}
-.card.cta{background:var(--red);box-shadow:var(--sh);justify-content:center}
-.card.cta::before{display:none}
-.card.cta .eyebrow{color:#FFD3D9}
-.card.cta h3{font-size:1.75rem}
-.card.cta p{color:#FFE4E8}
-.card.cta .ring{position:absolute;width:220px;height:220px;border-radius:50%;border:2px dashed rgba(255,255,255,.35);right:-70px;bottom:-80px;z-index:-1}
+.card.card-cta{background:var(--red);box-shadow:var(--sh);justify-content:center}
+.card.card-cta::before{display:none}
+.card.card-cta .eyebrow{color:#FFD3D9}
+.card.card-cta h3{font-size:1.75rem}
+.card.card-cta p{color:#FFE4E8}
+.card.card-cta .ring{position:absolute;width:220px;height:220px;border-radius:50%;border:2px dashed rgba(255,255,255,.35);right:-70px;bottom:-80px;z-index:-1}
 
 /* Why */
 .why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:4.5rem;align-items:center}
@@ -629,7 +629,7 @@ footer a:hover{color:#fff}
         <p>Fast response for water damage and moisture control, protecting your property and preventing mold or structural harm.</p>
         <div class="acts"><a href="https://www.masterstouchcarpetcare.com/restoration-services" class="btn btn-glass">Learn More</a></div>
       </article>
-      <article class="card cta rv">
+      <article class="card card-cta rv">
         <span class="ring"></span>
         <span class="eyebrow">Homes &amp; Businesses</span>
         <h3>Schedule Your Cleaning or Repair Today</h3>
