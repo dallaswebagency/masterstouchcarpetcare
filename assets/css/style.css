@@ -654,3 +654,8 @@ footer a,.cbox b,.qline,.fc li{overflow-wrap:anywhere}
   .about-vis .stat b{font-size:1.7rem}
   .tiles{grid-template-columns:1fr 1fr}
 }
+@media (max-width:620px){
+  .topbar .hide-s{display:none!important}
+  .topbar .tb-l{justify-content:center;width:100%}
+  .topbar .tb-l a{font-size:1.05rem}
+}
